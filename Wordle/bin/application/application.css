@@ -1,0 +1,83 @@
+.letterButton-style {
+  	-fx-background-color: lightgray; 
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+
+.green-letterButton-style {
+  	-fx-background-color: #6ca965; 
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+    
+}
+.yellow-letterButton-style {
+  	-fx-background-color: #c8b653; 
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+.gray-letterButton-style {
+  	-fx-background-color: #787c7f; 
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+    -fx-text-origin: center;
+}
+
+.text-style{
+	-fx-background-color: white; 
+	-fx-fill: black;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+.green-text-style{
+	-fx-background-color: #6ca965; 
+	-fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.white{
+	-fx-fill: white;
+}
+
+.yellow-text-style{
+	-fx-background-color: #c8b653; 
+	-fx-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+.gray-text-style{
+	-fx-background-color: #787c7f; 
+	-fx-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+.popup-text{
+	-fx-background-color: #787c7f; 
+	-fx-fill: White;
+    -fx-font-family: Arial;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+
+.border-button {
+    -fx-border-color: black; 
+    -fx-border-width: 1px; 
+    -fx-border-style: solid; 
+}
+

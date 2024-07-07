@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" StackPane.alignment="CENTER">
+               <center>
+                  <GridPane fx:id="Grid" alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="375.0" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="1" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="2" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="85.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="3" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="4" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="5" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.rowIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="6" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="7" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="8" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="9" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.rowIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="1" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="85.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="2" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="160.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="3" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="235.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="4" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="310.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="5" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.rowIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="6" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="85.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="7" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="160.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="8" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="235.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="9" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="310.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.rowIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="1" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="85.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="2" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="160.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="3" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="235.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="4" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="310.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="5" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="10.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.rowIndex="5">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="6" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="85.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="7" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="160.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="8" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="235.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="9" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="310.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                           <center>
+                              <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-style" text="0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="26.936767578125" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </GridPane>
+               </center>
+               <top>
+                  <BorderPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="75.0" BorderPane.alignment="CENTER">
+                     <center>
+                        <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" text="Wordle" textOrigin="CENTER" wrappingWidth="135.46759033203125" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="Monospaced Bold" size="36.0" />
+                           </font>
+                        </Text>
+                     </center>
+                     <right>
+                        <Button fx:id="Reset" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="100.0" text="Reset" textAlignment="CENTER" BorderPane.alignment="CENTER">
+                           <styleClass>
+                              <String fx:value="letterButton-style" />
+                              <String fx:value="border-button" />
+                           </styleClass>
+                        </Button>
+                     </right>
+                     <left>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+                     </left>
+                  </BorderPane>
+               </top>
+               <bottom>
+                  <BorderPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="200.0" BorderPane.alignment="CENTER">
+                     <top>
+                        <Pane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" BorderPane.alignment="CENTER" />
+                     </top>
+                     <bottom>
+                        <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                           <top>
+                              <GridPane alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" BorderPane.alignment="TOP_CENTER">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Button fx:id="Q" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="Q" />
+                                    <Button fx:id="W" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="W" GridPane.columnIndex="1" />
+                                    <Button fx:id="E" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="E" GridPane.columnIndex="2" />
+                                    <Button fx:id="R" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="R" GridPane.columnIndex="3" />
+                                    <Button fx:id="T" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="T" GridPane.columnIndex="4" />
+                                    <Button fx:id="Y" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="Y" GridPane.columnIndex="5" />
+                                    <Button fx:id="U" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="U" GridPane.columnIndex="6" />
+                                    <Button fx:id="I" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="I" GridPane.columnIndex="7" />
+                                    <Button fx:id="O" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="O" GridPane.columnIndex="8" />
+                                    <Button fx:id="P" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="P" GridPane.columnIndex="9" />
+                                 </children>
+                              </GridPane>
+                           </top>
+                           <center>
+                              <GridPane alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Button fx:id="A" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="A" />
+                                    <Button fx:id="S" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="S" GridPane.columnIndex="1" />
+                                    <Button fx:id="D" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="D" GridPane.columnIndex="2" />
+                                    <Button fx:id="F" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="F" GridPane.columnIndex="3" />
+                                    <Button fx:id="G" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="G" GridPane.columnIndex="4" />
+                                    <Button fx:id="H" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="H" GridPane.columnIndex="5" />
+                                    <Button fx:id="J" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="J" GridPane.columnIndex="6" />
+                                    <Button fx:id="K" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="K" GridPane.columnIndex="7" />
+                                    <Button fx:id="L" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="L" GridPane.columnIndex="8" />
+                                 </children>
+                              </GridPane>
+                           </center>
+                           <bottom>
+                              <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                                 <center>
+                                    <GridPane alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Button fx:id="Z" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="Z" />
+                                          <Button fx:id="X" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="X" GridPane.columnIndex="1" />
+                                          <Button fx:id="C" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="C" GridPane.columnIndex="2" />
+                                          <Button fx:id="V" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="V" GridPane.columnIndex="3" />
+                                          <Button fx:id="B" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="B" GridPane.columnIndex="4" />
+                                          <Button fx:id="N" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="N" GridPane.columnIndex="5" />
+                                          <Button fx:id="M" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="50.0" styleClass="letterButton-style" text="M" GridPane.columnIndex="6" />
+                                       </children>
+                                    </GridPane>
+                                 </center>
+                                 <left>
+                                    <GridPane gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="75.0" BorderPane.alignment="CENTER">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Button fx:id="Enter" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="75.0" styleClass="letterButton-style" text="Enter" />
+                                       </children>
+                                    </GridPane>
+                                 </left>
+                                 <right>
+                                    <GridPane gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="75.0" BorderPane.alignment="CENTER">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Button fx:id="Back" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#press" prefHeight="50.0" prefWidth="75.0" styleClass="letterButton-style" text="Back" />
+                                       </children>
+                                    </GridPane>
+                                 </right>
+                              </BorderPane>
+                           </bottom>
+                        </BorderPane>
+                     </bottom>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
